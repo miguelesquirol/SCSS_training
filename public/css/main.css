@@ -446,7 +446,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .article-page .content:not(.no-bg), .dots-bg, .home-module, .related-module, .photo-grid, .itens-grid, .search-results-itens {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJElEQVQYV2NkIBIwEqmOgQ4KWxqb/tfU12HYRAercYUC9a0GAJKuBAt58osjAAAAAElFTkSuQmCC");
+  background-image: url("https://www.novabase.ptdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJElEQVQYV2NkIBIwEqmOgQ4KWxqb/tfU12HYRAercYUC9a0GAJKuBAt58osjAAAAAElFTkSuQmCC");
   background-image: radial-gradient(#848182 0%, #ffffff 1px);
   background-size: 20px 20px; }
 
@@ -3767,63 +3767,64 @@ button.close {
 
 @font-face {
   font-family: "Calibri";
-  src: url("../fonts/calibri/2D850B_1_0.eot?") format("eot"), url("../fonts/calibri/2D850B_1_0.woff2") format("woff2"), url("../fonts/calibri/2D850B_1_0.woff") format("woff"), url("../fonts/calibri/2D850B_1_0.ttf") format("truetype"), url("../fonts/calibri/2D850B_1_0.svg#Calibri") format("svg"); }
+  src: url("https://www.novabase.pt../fonts/calibri/2D850B_1_0.eot?") format("eot"), url("https://www.novabase.pt../fonts/calibri/2D850B_1_0.woff2") format("woff2"), url("https://www.novabase.pt../fonts/calibri/2D850B_1_0.woff") format("woff"), url("https://www.novabase.pt../fonts/calibri/2D850B_1_0.ttf") format("truetype"), url("https://www.novabase.pt../fonts/calibri/2D850B_1_0.svg#Calibri") format("svg"); }
 
 @font-face {
   font-family: "Calibri-Bold";
-  src: url("../fonts/calibri/2D850B_0_0.eot?") format("eot"), url("../fonts/calibri/2D850B_0_0.woff2") format("woff2"), url("../fonts/calibri/2D850B_0_0.woff") format("woff"), url("../fonts/calibri/2D850B_0_0.ttf") format("truetype"), url("../fonts/calibri/2D850B_0_0.svg#Calibri-Bold") format("svg"); }
+  src: url("https://www.novabase.pt../fonts/calibri/2D850B_0_0.eot?") format("eot"), url("https://www.novabase.pt../fonts/calibri/2D850B_0_0.woff2") format("woff2"), url("https://www.novabase.pt../fonts/calibri/2D850B_0_0.woff") format("woff"), url("https://www.novabase.pt../fonts/calibri/2D850B_0_0.ttf") format("truetype"), url("https://www.novabase.pt../fonts/calibri/2D850B_0_0.svg#Calibri-Bold") format("svg"); }
 
 @font-face {
   font-family: "Gotham-Black";
-  src: url("../fonts/gotham/GothamSSm-Black.otf") format("opentype"), url("../fonts/gotham/GothamSSm-Black.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-Black.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-Black.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-BlackItalic";
-  src: url("../fonts/gotham/GothamSSm-BlackItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-BlackItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-BlackItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-BlackItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-Bold";
-  src: url("../fonts/gotham/GothamSSm-Bold.otf") format("opentype"), url("../fonts/gotham/GothamSSm-Bold.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-Bold.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-BoldItalic";
-  src: url("../fonts/gotham/GothamSSm-BoldItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-BoldItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-BoldItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-BoldItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-Book";
-  src: url("../fonts/gotham/GothamSSm-Book.otf") format("opentype"), url("../fonts/gotham/GothamSSm-Book.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-Book.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-Book.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-BookItalic";
-  src: url("../fonts/gotham/GothamSSm-BookItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-BookItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-BookItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-BookItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-Light";
-  src: url("../fonts/gotham/GothamSSm-Light.otf") format("opentype"), url("../fonts/gotham/GothamSSm-Light.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-Light.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-Light.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-LightItalic";
-  src: url("../fonts/gotham/GothamSSm-LightItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-LightItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-LightItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-LightItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-Medium";
-  src: url("../fonts/gotham/GothamSSm-Medium.otf") format("opentype"), url("../fonts/gotham/GothamSSm-Medium.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-Medium.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-Medium.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-MediumItalic";
-  src: url("../fonts/gotham/GothamSSm-MediumItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-MediumItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-MediumItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-MediumItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-XLight";
-  src: url("../fonts/gotham/GothamSSm-XLight.otf") format("opentype"), url("../fonts/gotham/GothamSSm-XLight.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-XLight.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-XLight.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Gotham-XLightItalic";
-  src: url("../fonts/gotham/GothamSSm-XLightItalic.otf") format("opentype"), url("../fonts/gotham/GothamSSm-XLightItalic.ttf") format("truetype"); }
+  src: url("https://www.novabase.pt../fonts/gotham/GothamSSm-XLightItalic.otf") format("opentype"), url("https://www.novabase.pt../fonts/gotham/GothamSSm-XLightItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../assetts/icomoon.woff");
+  src: url("https://www.novabase.pt../fonts/icomoon/icomoon.eot?r38wyu");
+  src: url("https://www.novabase.pt../fonts/icomoon/icomoon.eot?#iefixr38wyu") format("embedded-opentype"), url("https://www.novabase.pt../fonts/icomoon/icomoon.woff?r38wyu") format("woff"), url("https://www.novabase.pt../fonts/icomoon/icomoon.ttf?r38wyu") format("truetype"), url("https://www.novabase.pt../fonts/icomoon/icomoon.svg?r38wyu#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
