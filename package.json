@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel sass browsersync",
-    "build-sass" : "node-sass --include-path scss scss/main.scss   css/main.css ",
+    "sass" : "node-sass --include-path scss scss/main.scss   css/main.css ",
     "browsersync": "browser-sync start --server --files \"*.html, css/*.css\""
   },
   "author": "",

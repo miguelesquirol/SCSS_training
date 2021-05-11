@@ -1,635 +1,199 @@
 
 <!DOCTYPE html>
-
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if IE 9]>         <html class="no-js lt-ie10 ie9" lang=""> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html class="no-js" lang="">
- <!--<![endif]-->
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+	<title>CSS Zen Garden: The Beauty of CSS Design</title>
 
-    <title>Novabase</title>
-    <meta name="title" content="Novabase">
-    <meta name="description" content="Novabase, simpler &amp; happier.">
-    <meta name="keywords" content="">
+	<link rel="stylesheet" media="screen" href="css/main.css">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
 
-    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dave Shea">
+	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
+	<meta name="robots" content="all">
 
-    <meta name="Robots" content="index,follow">
-    <meta http-equiv="revisit-After" content="">
-    <meta http-equiv="rating" content="">
-    <meta http-equiv="distribution" content="">
-    <meta http-equiv="content-Language" content="">
 
-    <link rel="canonical" href="/">
-
-    <!-- Mobile viewport optimized: j.mp/bplateviewport ================================================================= -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="">
-
-    <!-- Facebook
-    ============================================================= -->
-    <meta property="og:title" content="Novabase">
-    <meta property="og:site_name" content="Novabase">
-    <meta property="og:description" content="Novabase, simpler &amp; happier.">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="https://www.novabase.pt/en">
-    <meta property="og:type" content="website">
-
-    
-
-    <!-- Twitter ================================================================= -->
-    <meta name="twitter:card" content="">
-    <meta name="twitter:title" content="Novabase">
-    <meta name="twitter:description" content="Novabase, simpler &amp; happier.">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:creator" content="">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:image:width" content="">
-    <meta name="twitter:image:height" content="">
-
-    <!-- Google Plu     ================================================================= -->
-    <meta itemprop="name" content="Novabase">
-    <meta itemprop="description" content="Novabase, simpler &amp; happier.">
-    <meta itemprop="image" content="">
-
-    <!-- Favicons ================================================================= -->
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png">
-    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
-
-    <!-- Css ================================================================= -->
-    <link rel="stylesheet" href="/css/main.css">
-    <!--[if IE 8]> <link rel="stylesheet" href="/assets/css/ie8.css" /> <![endif]-->
-    <link rel="stylesheet" media="print" href="/assets/css/print.css">
-
-    <script src="https://www.novabase.pt/assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    <!--[if lt IE 9]>
-        <script type="text/javascript" src="https://www.novabase.pt/assets/js/vendor/selectivizr-min.js"></script>
-        <script type="text/javascript" src="https://www.novabase.pt/assets/js/vendor/respond.min.js"></script>
-    <![endif]-->
-
-    
+	<!--[if lt IE 9]>
+	<script src="script/html5shiv.js"></script>
+	<![endif]-->
 </head>
-<body>
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5F4XL2"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5F4XL2');</script>
-    <!-- End Google Tag Manager -->
-   
-    <div id="cookie-alert">
-        <div class="container">
-            <span>&#xe653;</span>
-            Novabase&#39;s site uses Cookies to improve your navigantion experience and statistics. <br>
-            By visiting us you are allowing their use.
-                 <a href="/en/dp/ba22e150-1336-4de9-b9ba-c612bb3f4730" class="know-more">Learn more</a>
-            <a href="#" class="close-cookie-alert">&#xe60c;</a>
-        </div>
-    </div>
-    <div id="content-wrap" class="without-short-links">
+
+<!--
 
 
 
-        <header class="navbar navbar-static-top">
-    <div class="navbar-header">
-        <div class="navbar-collapse-overlay"></div>
-        <button type="button" class="navbar-toggle collapsed hidden-print" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <div class="visible-sm">Menu</div>
-            <div class="pull-left">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </div>
-        </button>
-        <a class="navbar-brand" href="/">
-            <img src="https://www.novabase.pt/assets/images/novabase-logo.svg" alt="Novabase">
-        </a>
-    </div>
-    <nav id="navbar" class="navbar-collapse collapse width">
+	View source is a feature, not a bug. Thanks for your curiosity and
+	interest in participating!
 
-        <ul class="nav navbar-nav">
-    <!-- Home -->
-    <li class="visible-xs visible-sm"><a href="/en">Home</a></li>
+	Here are the submission guidelines for the new and improved csszengarden.com:
 
-        <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Why Us</a>
-            <ul class="dropdown-menu fadeInDown">
-                <li><a href="/en/dp/more-than-systems">More than Systems</a></li>
-                <li><a href="/en/dp/our-culture">Our Culture</a></li>
-                <li><a href="/en/dp/design-thinking-and-us">Design Thinking and Us</a></li>
-                <li><a href="/en/dp/in-the-world">In the World</a></li>
-            </ul>
-        </li>
-        <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">What we do</a>
-            <ul class="dropdown-menu fadeInDown">
-                <li class="dropdown dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Next Gen</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/en/dp/financial-services-industry">Financial Services</a></li>
-                        <li><a href="https://www.celfocus.com/home/">Celfocus</a></li>
-                    </ul>
-                </li>                                     
-                <li class="dropdown dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Value Portofolio</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="https://www.neotalent.co.uk/en/">Neotalent</a></li>
-                        <li><a href="https://www.novabasecapital.pt/en">Novabase Capital</a></li>
-                    </ul>
-                </li>                                     
-            </ul>
-        </li>
-        <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">With Us</a>
-            <ul class="dropdown-menu fadeInDown">
-                <li><a href="/en/dp/novabase-academy-4dd8c2">Novabase Academy</a></li>
-                <li><a href="/en/dp/applications">Applications</a></li>
-                <li><a href="/en/dp/opportunities">Opportunities</a></li>
-            </ul>
-        </li>
-        <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">What&#39;s New</a>
-            <ul class="dropdown-menu fadeInDown">
-                <li><a href="/en/dp/news">News</a></li>
-                <li class="dropdown dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Press Zone</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/en/dp/press-releases">Press Releases</a></li>
-                        <li><a href="/en/dp/press-kit-ee26a3">Press Kit</a></li>
-                        <li><a href="/en/dp/videos-2309ee">Videos</a></li>
-                    </ul>
-                </li>                                     
-            </ul>
-        </li>
-        <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Novabase</a>
-            <ul class="dropdown-menu fadeInDown">
-                <li><a href="/en/dp/history">History</a></li>
-                <li><a href="/en/dp/board-of-directors-832ba2">Board of Directors</a></li>
-                <li><a href="/en/dp/executive-committee-179160">Executive Committee </a></li>
-                <li><a href="/en/dp/executive-team-732799">Executive Team</a></li>
-                <li class="dropdown dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investors</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/en/dp/corporate-bodies">Corporate Bodies</a></li>
-                        <li><a href="/en/dp/financial-calendar">Financial Calendar</a></li>
-                        <li><a href="/en/dp/reports-accounts-c4831f">Reports &amp; Accounts</a></li>
-                        <li><a href="/en/dp/cmvm-press-releases">CMVM Press Releases</a></li>
-                        <li><a href="/en/dp/analysts">Analysts</a></li>
-                        <li><a href="/en/dp/stock-performance">Stock Performance</a></li>
-                        <li><a href="/en/dp/general-meetings-4e9d43">General Meetings</a></li>
-                        <li><a href="/en/dp/corporate-governance">Corporate Governance</a></li>
-                        <li><a href="/en/dp/shareholdings">Shareholdings</a></li>
-                        <li><a href="/en/dp/articles-of-association">Articles of Association</a></li>
-                        <li><a href="/en/dp/investor-relations-office">Investor Relations Office</a></li>
-                        <li><a href="/en/dp/novabase-sgps-sa-risk-policy">Risk Policy</a></li>
-                        <li><a href="/en/dp/faqs-41cf11">FAQ</a></li>
-                    </ul>
-                </li>                                     
-                <li><a href="/en/dp/certifications">Certifications</a></li>
-                <li><a href="/en/dp/reporting-of-irregularities">Reporting of Irregularities</a></li>
-            </ul>
-        </li>
-</ul>
+	- CSS3? Of course! Prefix for ALL browsers where necessary.
+	- go responsive; test your layout at multiple screen sizes.
+	- your browser testing baseline: IE9+, recent Chrome/Firefox/Safari, and iOS/Android
+	- Graceful degradation is acceptable, and in fact highly encouraged.
+	- use classes for styling. Don't use ids.
+	- web fonts are cool, just make sure you have a license to share the files. Hosted 
+	  services that are applied via the CSS file (ie. Google Fonts) will work fine, but
+	  most that require custom HTML won't. TypeKit is supported, see the readme on this
+	  page for usage instructions: https://github.com/mezzoblue/csszengarden.com/
+
+	And a few tips on building your CSS file:
+
+	- use :first-child, :last-child and :nth-child to get at non-classed elements
+	- use ::before and ::after to create pseudo-elements for extra styling
+	- use multiple background images to apply as many as you need to any element
+	- use the Kellum Method for image replacement, if still needed. http://goo.gl/GXxdI
+	- don't rely on the extra divs at the bottom. Use ::before and ::after instead.
+
+		
+-->
+
+<body id="css-zen-garden">
+<div class="page-wrapper">
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+			<h1>CSS Zen Garden</h1>
+			<h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+		</header>
+
+		<div class="summary" id="zen-summary" role="article">
+			<p>A demonstration of what can be accomplished through <abbr title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to load it into this page.</p>
+			<p>Download the example <a href="/examples/index" title="This page's source HTML code, not to be modified.">html file</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a></p>
+		</div>
+
+		<div class="preamble" id="zen-preamble" role="article">
+			<h3>The Road to Enlightenment</h3>
+			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr title="Document Object Model">DOM</abbr>s, broken <abbr title="Cascading Style Sheets">CSS</abbr> support, and abandoned browsers.</p>
+			<p>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the <abbr title="World Wide Web Consortium">W3C</abbr>, <abbr title="Web Standards Project">WaSP</abbr>, and the major browser creators.</p>
+			<p>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.</p>
+		</div>
+	</section>
+
+	<div class="main supporting" id="zen-supporting" role="main">
+		<div class="explanation" id="zen-explanation" role="article">
+			<h3>So What is This About?</h3>
+			<p>There is a continuing need to show the power of <abbr title="Cascading Style Sheets">CSS</abbr>. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The <abbr title="HyperText Markup Language">HTML</abbr> remains the same, the only thing that has changed is the external <abbr title="Cascading Style Sheets">CSS</abbr> file. Yes, really.</p>
+			<p><abbr title="Cascading Style Sheets">CSS</abbr> allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.</p>
+		</div>
+
+		<div class="participation" id="zen-participation" role="article">
+			<h3>Participation</h3>
+			<p>Strong visual design has always been our focus. You are modifying this page, so strong <abbr title="Cascading Style Sheets">CSS</abbr> skills are necessary too, but the example files are commented well enough that even <abbr title="Cascading Style Sheets">CSS</abbr> novices can use them as starting points. Please see the <a href="http://www.mezzoblue.com/zengarden/resources/" title="A listing of CSS-related resources"><abbr title="Cascading Style Sheets">CSS</abbr> Resource Guide</a> for advanced tutorials and tips on working with <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+			<p>You may modify the style sheet in any way you wish, but not the <abbr title="HyperText Markup Language">HTML</abbr>. This may seem daunting at first if you&#8217;ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.</p>
+			<p>Download the sample <a href="/examples/index" title="This page's source HTML code, not to be modified.">HTML</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">CSS</a> to work on a copy locally. Once you have completed your masterpiece (and please, don&#8217;t submit half-finished work) upload your <abbr title="Cascading Style Sheets">CSS</abbr> file to a web server under your control. <a href="http://www.mezzoblue.com/zengarden/submit/" title="Use the contact form to send us your CSS file">Send us a link</a> to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.</p>
+		</div>
+
+		<div class="benefits" id="zen-benefits" role="article">
+			<h3>Benefits</h3>
+			<p>Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing <abbr title="Cascading Style Sheets">CSS</abbr> really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.</p>
+		</div>
+
+		<div class="requirements" id="zen-requirements" role="article">
+			<h3>Requirements</h3>
+			<p>Where possible, we would like to see mostly <abbr title="Cascading Style Sheets, levels 1 and 2">CSS 1 &amp; 2</abbr> usage. <abbr title="Cascading Style Sheets, levels 3 and 4">CSS 3 &amp; 4</abbr> should be limited to widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical <abbr title="Cascading Style Sheets">CSS</abbr> and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The only real requirement we have is that your <abbr title="Cascading Style Sheets">CSS</abbr> validates.</p>
+			<p>Luckily, designing this way shows how well various browsers have implemented <abbr title="Cascading Style Sheets">CSS</abbr> by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days &#8212; especially when you factor in mobile &#8212; pixel-perfect layouts may not be possible across every platform. That&#8217;s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 90% of the population).</p>
+			<p>We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum, and try to incorporate unique and interesting visual themes to your work. We&#8217;re well past the point of needing another garden-related design.</p>
+			<p>This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see <a href="http://www.mezzoblue.com/zengarden/submit/guidelines/">submission guidelines</a>), but we ask you release your <abbr title="Cascading Style Sheets">CSS</abbr> under a Creative Commons license identical to the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="View the Zen Garden's license information.">one on this site</a> so that others may learn from your work.</p>
+			<p role="contentinfo">By <a href="http://www.mezzoblue.com/">Dave Shea</a>. Bandwidth graciously donated by <a href="http://www.mediatemple.net/">mediatemple</a>. Now available: <a href="http://www.amazon.com/exec/obidos/ASIN/0321303474/mezzoblue-20/">Zen Garden, the book</a>.</p>
+		</div>
+
+		<footer>
+			<a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML" class="zen-validate-html">HTML</a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site&#8217;s CSS" class="zen-validate-css">CSS</a>
+			<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike." class="zen-license">CC</a>
+			<a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site" class="zen-accessibility">A11y</a>
+			<a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github" class="zen-github">GH</a>
+		</footer>
+
+	</div>
 
 
-        <div class="menu-extras">
-              
-            <div class="search-wrap">
-                <form class="search-form" id="search-form" action="/en/search" data-action="/search-service" data-token="{'__RequestVerificationToken':'WjvpA6ar3mMAa01Ja3Py6YglvCaVpt_0Hi2nZqJWQRzjesgjCB3nHIem-yMIOWghGLeEcJvpXd_78ZL13RK3fJ1vlIieDyNRZ96U4X3aEW41'}" enctype="application/x-www-form-urlencoded">
-                    <input type="text" id="search-input" name="q" class="form-control" value="" placeholder="SEARCH" autocomplete="off" required>
-                    <a href="javascript:;" class="btn-submit">&#xe64b;</a>
-                    <button type="reset" class="btn-clear">&#xe60c;</button>
-                </form>
-            </div>
-              
-            <div class="languages-wrap">
-                <ul class="list-inline">
-                    <li class="" ><a href="/Home/Switch/pt">&#xe63a;</a></li>
-                    <li class="active" ><a href="/Home/Switch/en">&#xe618;</a></li>
-                    <li class="" ><a href="/Home/Switch/es">&#xe626;</a></li>
-                </ul>
-            </div>
-        </div>
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
 
-        <article class="search-overlay">
-    <a class="navbar-brand" href="/">
-        <img src="https://www.novabase.pt/assets/images/novabase-logo.svg" alt="Novabase">
-    </a>
+			<div class="design-selection" id="design-selection">
+				<h3 class="select">Select a Design:</h3>
+				<nav role="navigation">
+					<ul>
+					<li>
+						<a href="/221/" class="design-name">Mid Century Modern</a> by						<a href="http://andrewlohman.com/" class="designer-name">Andrew Lohman</a>
+					</li>					<li>
+						<a href="/220/" class="design-name">Garments</a> by						<a href="http://danielmall.com/" class="designer-name">Dan Mall</a>
+					</li>					<li>
+						<a href="/219/" class="design-name">Steel</a> by						<a href="http://steffen-knoeller.de" class="designer-name">Steffen Knoeller</a>
+					</li>					<li>
+						<a href="/218/" class="design-name">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name">Trent Walton</a>
+					</li>					<li>
+						<a href="/217/" class="design-name">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name">Elliot Jay Stocks</a>
+					</li>					<li>
+						<a href="/216/" class="design-name">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name">Jeremy Carlson</a>
+					</li>					<li>
+						<a href="/215/" class="design-name">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name">meltmedia</a>
+					</li>					<li>
+						<a href="/214/" class="design-name">Verde Moderna</a> by						<a href="http://www.mezzoblue.com/" class="designer-name">Dave Shea</a>
+					</li>					</ul>
+				</nav>
+			</div>
 
-    <div class="searches-wrap">
+			<div class="design-archives" id="design-archives">
+				<h3 class="archives">Archives:</h3>
+				<nav role="navigation">
+					<ul>
+						<li class="next">
+							<a href="/214/page1">
+								Next Designs <span class="indicator">&rsaquo;</span>
+							</a>
+						</li>
+						<li class="viewall">
+							<a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden.">
+								View All Designs							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
-        <section class="popular-searches">
-            <div class="h1">Popular Searches</div>
-            <ol>
-                    <li><a href="/en/search?q=celfocus" class="popular-term">celfocus</a></li>
-                    <li><a href="/en/search?q=transformation" class="popular-term">transformation</a></li>
-                    <li><a href="/en/search?q=%20infrastructures" class="popular-term"> infrastructures</a></li>
-                    <li><a href="/en/search?q=view" class="popular-term">view</a></li>
-                    <li><a href="/en/search?q=citizen" class="popular-term">citizen</a></li>
-                    <li><a href="/en/search?q=will%20you%20move%20faster" class="popular-term">will you move faster</a></li>
-                    <li><a href="/en/search?q=simplicity" class="popular-term">simplicity</a></li>
-                    <li><a href="/en/search?q=juice" class="popular-term">juice</a></li>
-                    <li><a href="/en/search?q=business" class="popular-term">business</a></li>
-                    <li><a href="/en/search?q=flawless" class="popular-term">flawless</a></li>
-            </ol>
-        </section>
-
-        <section class="latest-searches">
-            <ul class="autocomplete-list">
-            </ul>
-            <ul class="autocomplete-list result-searches-list hidden"></ul>
-        </section>
-
-    </div>
-    <br class="clear">
-
-    <!-- footer -->
-    <footer class="main-footer search-footer hidden-print">
-        <div class="row hidden-print">
-
-    
-        <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Novabase Companies</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="http://www.novabasecapital.pt/" target="_blank"><span>Novabase Capital</span></a></li>
-                            <li><a href="http://www.celfocus.com/" target="_blank"><span>Celfocus</span></a></li>
-                            <li><a href="https://www.neotalent.co.uk/en/" target="_blank"><span>Neotalent</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Connections</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="http://www.novabase.com/financial/wizzio/" target="_blank"><span>wizzio</span></a></li>
-                            <li><a href="http://www.novabase.com/financial/binfolio/" target="_blank"><span>Binfolio   </span></a></li>
-                            <li><a href="http://www.novabase.com/financial/rely/" target="_blank"><span>Rely</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Others Links</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="/en/dp/applications" target=""><span>Applications</span></a></li>
-                            <li><a href="/en/dp/design-thinking-and-us" target=""><span>Design Thinking and Us</span></a></li>
-                            <li><a href="/en/dp/more-than-systems" target="_blank"><span>More than Systems</span></a></li>
-                </ul>
-            </nav>
-        </section>
-</div>
-
-<!-- row -->
-<div class="row hidden-print">
-    
-        <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Get in Touch</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="/en/dp/contact-us" target=""><i class="icon contact-us"></i><span>Contact Us</span></a></li>
-                            <li><a href="/en/dp/find-us" target=""><i class="icon find-us"></i><span>Find Us</span></a></li>
-                            <li><a href="/en/dp/our-offices" target=""><i class="icon our-offices"></i><span>Our Offices</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Follow Us</h4>
-            <nav>
-                <ul class="list-inline">
-                            <li><a href="https://www.youtube.com/channel/UCIoNSZBQQod5tUa25grL93A" target="_blank"><i class="icon youtube"></i><span class="hidden-xs">Youtube</span></a></li>
-                            <li><a href="https://www.flickr.com/photos/28788194@N08/" target="_blank"><i class="icon flickr"></i><span class="hidden-xs">Flickr</span></a></li>
-                            <li><a href="https://www.linkedin.com/company/novabase" target="_blank"><i class="icon linkedin"></i><span class="hidden-xs">LinkedIn</span></a></li>
-                </ul>
-            </nav>
-        </section>
-
-    <section class="col-xs-8 col-sm-4 col-md-5">
-
-        <a class="brand" href="/">
-            <img src="https://www.novabase.pt/assets/images/novabase-logo-white.svg" alt="Novabase" class="main-footer-brand">
-        </a>
-        <section class="hidden-print sub-footer">
-            <span>&copy; Copyright 2021 - </span>
-            <span>NOVABASE SGPS, S.A.</span><br />
-            <span>All rights reserved.</span>
-        </section>
-
-    </section>
-</div>
-
-<!-- sub-footer -->
-<div class="row sub-footer">
-    <section class="col-xs-8 col-sm-12 col-md-15">
-
-        
-
-        <a class="brand" href="#">
-            <img src="https://www.novabase.pt/assets/images/novabase-logo-grey.svg" alt="Novabase">
-        </a>
-
-    </section>
-    <section class="col-xs-8 visible-print">
-        <span>&copy; Copyright 2021 - NOVABASE SGPS, S.A. All rights reserved.</span>
-    </section>
-</div>
-    </footer>
-</article>
-
-
-    </nav>
-</header>
-
-        
-
-
-
-
-<div class="highlights">
-
-        <div>
-            <figure class="imgLiquid">
-                <img src="https://www.novabase.pt/contentfiles/homepage/1000/13/kdxy5fay.juv_8de558ad_carouselImage.jpg" alt="">
-            </figure>
-            <section class="content">
-                    <h1 class="big white-text">
-                        .
-                    </h1>
-                                                    <a href="https://streams.eventcdn.net/novabase/2021q1/" target="_blank" class="btn btn-primary">Register Webcast </a>
-            </section>
-        </div>
-        <div>
-            <figure class="imgLiquid">
-                <img src="https://www.novabase.pt/contentfiles/homepage/1000/13/2fdjplic.gw3_bfefa47e_carouselImage.png" alt="">
-            </figure>
-            <section class="content">
-                    <h1 class="big white-text">
-                        Annual Report 
-                    </h1>
-                                    <h2 class="small white-text">2020</h2>
-                                    <a href="https://reports.novabase.com/2020/en/" target="_blank" class="btn btn-primary">View Report</a>
-            </section>
-        </div>
-        <div>
-            <figure class="imgLiquid">
-                <img src="https://www.novabase.pt/contentfiles/homepage/1000/13/fyypwwsi.oqe_7225f963_carouselImage.png" alt="">
-            </figure>
-            <section class="content">
-                    <h1 class="big ">
-                        COVID-19
-                    </h1>
-                                    <h2 class="small ">CEO Message </h2>
-                                    <a href="/en/dp/covid19" target="_blank" class="btn btn-primary">Know more</a>
-            </section>
-        </div>
-        <div>
-            <figure class="imgLiquid">
-                <img src="https://www.novabase.pt/contentfiles/homepage/1000/13/0atz3cxf.zck_689bb6e3_carouselImage.png" alt="">
-            </figure>
-            <section class="content">
-                    <h1 class="big white-text">
-                        Novabase has been recognized by Gartner
-                    </h1>
-                                                    <a href="/en/dp/novabase-has-been-recognized-by-gartner" target="_blank" class="btn btn-primary">Know more</a>
-            </section>
-        </div>
-
-</div>
-
-
-
-
-<div class="waypoints clear">
-<div class="home-module module-3">
-    <!-- xl -->
-
-    <article class="teaser teaser-xl js-waypoint zoom-in img-zoom black">
-        <figure class="imgLiquid">
-            <img src="https://www.novabase.pt/contentfiles/homepageblocks/1000/195/3ybos5fm.idb_aedbe8f8_32.jpg" alt="">
-        </figure>
-            <div class="title-lg">
-                <p>
-                    More 81 graduates to the team
-                </p>
-            </div>
-                                    <a href="/en/dp/more-81-graduates-to-the-team" target="" class="cta">
-                Know more
-            </a>
-    </article>
-
-
-
-    <!-- m -->
-
-    <article class="teaser teaser-m js-waypoint zoom-in np red">
-            <div class="title-md">
-                <p>
-                    Neotalent without borders 
-                </p>
-            </div>
-                                    <a href="/en/dp/neotalent-without-borders" target="" class="cta">
-                Know more
-            </a>
-    </article>
-
-
-
-    <!-- m -->
-
-    <article class="teaser teaser-m js-waypoint zoom-in second black">
-        <figure class="imgLiquid">
-            <img src="https://www.novabase.pt/contentfiles/homepageblocks/1000/193/dl1krjuj.o4h_00f10a89_32.jpg" alt="">
-        </figure>
-            <div class="title-md">
-                <p>
-                    <br /><br /><br />Partnership for Talent
-                </p>
-            </div>
-                                    <a href="/en/dp/partnership-for-talent" target="" class="cta">
-                Know more
-            </a>
-    </article>
-
-        <!-- channel np -->
-<article class="teaser teaser-channel js-waypoint zoom-in linkedin np">
-    <a href="https://www.linkedin.com/company/novabase">
-        <p>&#xe660;</p>
-        <div class="cta">
-            follow us
-        </div>
-    </a>
-</article>
-
-
-
-
-    <!-- l-s -->
-
-    <article class="teaser teaser-l-s js-waypoint zoom-in img-zoom">
-        <figure class="imgLiquid">
-            <img src="https://www.novabase.pt/contentfiles/homepageblocks/1000/197/fsi22cxi.n44_da34954c_32.png" alt="">
-        </figure>
-        <section class="teaser teaser-s np white">
-                <div class="title-md">
-                    <p>
-                        Neotalent attends Web Summit
-                    </p>
-                </div>
-                                                    <a href="/en/dp/neotalent-attends-web-summit" target="" class="cta">
-                    Know more
-                </a>
-        </section>
-    </article>
-</div>
+			<div class="zen-resources" id="zen-resources">
+				<h3 class="resources">Resources:</h3>
+				<ul>
+					<li class="view-css">
+						<a href="style.css" title="View the source CSS file of the currently-viewed design.">
+							View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr>						</a>
+					</li>
+					<li class="css-resources">
+						<a href="http://www.mezzoblue.com/zengarden/resources/" title="Links to great sites with information on using CSS.">
+							<abbr title="Cascading Style Sheets">CSS</abbr> Resources						</a>
+					</li>
+					<li class="zen-faq">
+						<a href="http://www.mezzoblue.com/zengarden/faq/" title="A list of Frequently Asked Questions about the Zen Garden.">
+							<abbr title="Frequently Asked Questions">FAQ</abbr>						</a>
+					</li>
+					<li class="zen-submit">
+						<a href="http://www.mezzoblue.com/zengarden/submit/" title="Send in your own CSS file.">
+							Submit a Design						</a>
+					</li>
+					<li class="zen-translations">
+						<a href="http://www.mezzoblue.com/zengarden/translations/" title="View translated versions of this page.">
+							Translations						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
 
 
 </div>
 
-<a href="#" class="load-more"><span>&#xe62f;</span> Discover more about NOVABASE</a>
+<!--
 
-
-        <footer class="main-footer footer-footer">
-    <div class="row hidden-print">
-
-    
-        <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Novabase Companies</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="http://www.novabasecapital.pt/" target="_blank"><span>Novabase Capital</span></a></li>
-                            <li><a href="http://www.celfocus.com/" target="_blank"><span>Celfocus</span></a></li>
-                            <li><a href="https://www.neotalent.co.uk/en/" target="_blank"><span>Neotalent</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Connections</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="http://www.novabase.com/financial/wizzio/" target="_blank"><span>wizzio</span></a></li>
-                            <li><a href="http://www.novabase.com/financial/binfolio/" target="_blank"><span>Binfolio   </span></a></li>
-                            <li><a href="http://www.novabase.com/financial/rely/" target="_blank"><span>Rely</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Others Links</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="/en/dp/applications" target=""><span>Applications</span></a></li>
-                            <li><a href="/en/dp/design-thinking-and-us" target=""><span>Design Thinking and Us</span></a></li>
-                            <li><a href="/en/dp/more-than-systems" target="_blank"><span>More than Systems</span></a></li>
-                </ul>
-            </nav>
-        </section>
-</div>
-
-<!-- row -->
-<div class="row hidden-print">
-    
-        <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Get in Touch</h4>
-            <nav>
-                <ul class="list-unstyled">
-                            <li><a href="/en/dp/contact-us" target=""><i class="icon contact-us"></i><span>Contact Us</span></a></li>
-                            <li><a href="/en/dp/find-us" target=""><i class="icon find-us"></i><span>Find Us</span></a></li>
-                            <li><a href="/en/dp/our-offices" target=""><i class="icon our-offices"></i><span>Our Offices</span></a></li>
-                </ul>
-            </nav>
-        </section>
-            <section class="col-xs-8 col-sm-4 col-md-5">
-            <h4>Follow Us</h4>
-            <nav>
-                <ul class="list-inline">
-                            <li><a href="https://www.youtube.com/channel/UCIoNSZBQQod5tUa25grL93A" target="_blank"><i class="icon youtube"></i><span class="hidden-xs">Youtube</span></a></li>
-                            <li><a href="https://www.flickr.com/photos/28788194@N08/" target="_blank"><i class="icon flickr"></i><span class="hidden-xs">Flickr</span></a></li>
-                            <li><a href="https://www.linkedin.com/company/novabase" target="_blank"><i class="icon linkedin"></i><span class="hidden-xs">LinkedIn</span></a></li>
-                </ul>
-            </nav>
-        </section>
-
-    <section class="col-xs-8 col-sm-4 col-md-5">
-
-        <a class="brand" href="/">
-            <img src="https://www.novabase.pt/assets/images/novabase-logo-white.svg" alt="Novabase" class="main-footer-brand">
-        </a>
-        <section class="hidden-print sub-footer">
-            <span>&copy; Copyright 2021 - </span>
-            <span>NOVABASE SGPS, S.A.</span><br />
-            <span>All rights reserved.</span>
-        </section>
-
-    </section>
-</div>
-
-<!-- sub-footer -->
-<div class="row sub-footer">
-    <section class="col-xs-8 col-sm-12 col-md-15">
-
-        
-
-        <a class="brand" href="#">
-            <img src="https://www.novabase.pt/assets/images/novabase-logo-grey.svg" alt="Novabase">
-        </a>
-
-    </section>
-    <section class="col-xs-8 visible-print">
-        <span>&copy; Copyright 2021 - NOVABASE SGPS, S.A. All rights reserved.</span>
-    </section>
-</div>
-</footer>
-
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="https://www.novabase.pt/assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="https://www.novabase.pt/assets/js/min/main.min.js?v=1.0.0.24151 2"></script>
-
-    <script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l; b[l] || (b[l] =
-        function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
-        e = o.createElement(i); r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-62730624-1'); ga('send', 'pageview');
-    </script>
-
-    
-    <script>/*<![CDATA[*/(function (w, a, b, d, s) { w[a] = w[a] || {}; w[a][b] = w[a][b] || { q: [], track: function (r, e, t) { this.q.push({ r: r, e: e, t: t || +new Date }); } }; var e = d.createElement(s); var f = d.getElementsByTagName(s)[0]; e.async = 1; e.src = '//info.novabase.pt/cdnr/95/acton/bn/tracker/17550'; f.parentNode.insertBefore(e, f); })(window, 'ActOn', 'Beacon', document, 'script'); ActOn.Beacon.track();/*]]>*/</script>
+	These superfluous divs/spans were originally provided as catch-alls to add extra imagery.
+	These days we have full ::before and ::after support, favour using those instead.
+	These only remain for historical design compatibility. They might go away one day.
+		
+-->
+<div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+<div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
 
 </body>
 </html>
