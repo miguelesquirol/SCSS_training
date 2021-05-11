@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel sass browsersync",
-    "sass": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss css/main.css  --watch scss/*  ",
+    "build-sass" : "node-sass --include-path scss scss/main.scss   css/main.css ",
     "browsersync": "browser-sync start --server --files \"*.html, css/*.css\""
   },
   "author": "",
@@ -13,7 +13,7 @@
   "dependencies": {
     "browser-sync": "^2.26.14",
     "hosted-git-info": "^4.0.2",
-    "node-sass": "^5.0.0",
+    "node-sass": "^4.12",
     "npm-run-all": "^4.1.5"
   }
 }
